@@ -22,7 +22,7 @@ function AllBeersPage() {
   }, []);
 
   return (
-    <div>
+    <div className='beerGrid'>
       {beers &&
         beers.map(beer => {
           return (
